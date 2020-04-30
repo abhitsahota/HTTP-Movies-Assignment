@@ -49,7 +49,7 @@ function Movie({ addToSavedList, setMovieList, movies }) {
       <div className="save-button" onClick={saveMovie}>
         Save
       </div>
-      <button onClick={ () => {}} >Edit</button>
+      <button onClick={ () => {push(`/update-movie/${params.id}`)}} >Edit</button>
       <button onClick={handleDelete} >Delete</button>
 
     </div>
